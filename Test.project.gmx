@@ -15,6 +15,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_pause</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_testplayer</object>
     <object>objects\obj_testwall</object>
@@ -22,6 +25,7 @@
     <object>objects\ob_fastenemy</object>
     <object>objects\obj_spikes</object>
     <object>objects\obj_advancedEnemy</object>
+    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

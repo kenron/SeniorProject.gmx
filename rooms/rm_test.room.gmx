@@ -208,6 +208,7 @@
     <instance objName="obj_spikes" x="512" y="256" name="inst_1EF01419" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_testenemy" x="320" y="224" name="inst_68D89F5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_advancedEnemy" x="416" y="64" name="inst_55F55496" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pause" x="32" y="0" name="inst_03A2DC1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

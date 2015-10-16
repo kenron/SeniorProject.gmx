@@ -53,7 +53,10 @@ movespeed = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//input
+            <string>//pause
+if (global.pause) exit;
+
+//input
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);

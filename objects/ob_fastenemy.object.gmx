@@ -54,7 +54,10 @@ vsp = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp = dir * movespeed;
+            <string>//pause
+if (global.pause) exit;
+
+hsp = dir * movespeed;
 vsp += grav;
 
 //horizontal collision
