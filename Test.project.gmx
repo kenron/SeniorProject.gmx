@@ -6,12 +6,13 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_testplayer</sprite>
-    <sprite>sprites\spr_testwall</sprite>
-    <sprite>sprites\spr_testenemy</sprite>
-    <sprite>sprites\spr_fastenemy</sprite>
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_BasicEnemy</sprite>
+    <sprite>sprites\spr_FastEnemy</sprite>
     <sprite>sprites\spr_spikes</sprite>
-    <sprite>sprites\spr_advancedEnemy</sprite>
+    <sprite>sprites\spr_AdvancedEnemy</sprite>
+    <sprite>sprites\spr_1up</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,16 +20,23 @@
     <font>fonts\fnt_pause</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_testplayer</object>
-    <object>objects\obj_testwall</object>
-    <object>objects\obj_testenemy</object>
-    <object>objects\ob_fastenemy</object>
+    <object>objects\obj_1up</object>
+    <object>objects\obj_title</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_BasicEnemy</object>
+    <object>objects\ob_FastEnemy</object>
     <object>objects\obj_spikes</object>
-    <object>objects\obj_advancedEnemy</object>
+    <object>objects\obj_AdvancedEnemy</object>
     <object>objects\obj_pause</object>
+    <object>objects\obj_lives</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
+    <room>rooms\rm_OpeningTitle</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
