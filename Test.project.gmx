@@ -13,6 +13,7 @@
     <sprite>sprites\spr_spikes</sprite>
     <sprite>sprites\spr_AdvancedEnemy</sprite>
     <sprite>sprites\spr_1up</sprite>
+    <sprite>sprites\spr_NextRoom</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,11 +32,16 @@
     <object>objects\obj_pause</object>
     <object>objects\obj_lives</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_NextRoom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_OpeningTitle</room>
-    <room>rooms\rm_test</room>
+    <room>rooms\rm_1_1</room>
+    <room>rooms\rm_1_2</room>
+    <room>rooms\rm_1_3</room>
+    <room>rooms\rm_1_4</room>
+    <room>rooms\rm_1_5</room>
     <room>rooms\rm_gameover</room>
   </rooms>
   <help>
