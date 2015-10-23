@@ -31,6 +31,7 @@
     <object>objects\obj_AdvancedEnemy</object>
     <object>objects\obj_pause</object>
     <object>objects\obj_lives</object>
+    <object>objects\obj_Victory</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_NextRoom</object>
   </objects>
@@ -42,6 +43,7 @@
     <room>rooms\rm_1_3</room>
     <room>rooms\rm_1_4</room>
     <room>rooms\rm_1_5</room>
+    <room>rooms\rm_victory</room>
     <room>rooms\rm_gameover</room>
   </rooms>
   <help>

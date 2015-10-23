@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if keyboard_check_pressed(vk_space)
 {
-    room_goto_next();
+    room_goto(rm_start);
 }
 </string>
           </argument>
@@ -52,8 +52,8 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_colour(c_white);
-draw_text(((room_width/2)- 50), room_height/2, "Save Quadrilateral World");
-draw_text(((room_width/2)- 50), ((room_height/2)+ 50), "Press Spacebar to Continue");
+draw_text(((room_width/2)- 25), room_height/2, "Victory!!!");
+draw_text(((room_width/2)- 100), ((room_height/2) + 50), "Press Space Bar to Go Back to the Opening Title");
 </string>
           </argument>
         </arguments>
