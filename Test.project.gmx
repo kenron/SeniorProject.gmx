@@ -43,6 +43,12 @@
     <room>rooms\rm_1_3</room>
     <room>rooms\rm_1_4</room>
     <room>rooms\rm_1_5</room>
+    <room>rooms\rm_2_1</room>
+    <room>rooms\rm_2_2</room>
+    <room>rooms\rm_2_3</room>
+    <room>rooms\rm_2_4</room>
+    <room>rooms\rm_2_5</room>
+    <room>rooms\rm_2_6</room>
     <room>rooms\rm_victory</room>
     <room>rooms\rm_gameover</room>
   </rooms>
