@@ -27,11 +27,11 @@
             <kind>1</kind>
             <string>///Initiallize Variables
 dir = 0;
-movespeed = 2;
+movespeed = 0;
 grav = 0.2;
 hsp = 0;
-vsp = 1;
-jumpspeed = 4;
+vsp = 0;
+jumpspeed = 6;
 </string>
           </argument>
         </arguments>
@@ -57,8 +57,12 @@ jumpspeed = 4;
             <string>//pause
 if (global.pause) exit;
 
-hsp = dir * movespeed;
-vsp += grav;
+if (vsp &lt; 10) vsp += grav;
+
+if (place_meeting(x,y+1,obj_wall))
+{
+    vsp = 1 * -jumpspeed
+} 
 
 //horizontal collision
 if (place_meeting(x+hsp,y,obj_wall))

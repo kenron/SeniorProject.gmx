@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Initiallize Variables
 dir = -1;
-movespeed = 6;
+movespeed = 10;
 grav = 0.2;
 hsp = 0;
 vsp = 0;
@@ -81,6 +81,7 @@ if (place_meeting(x+hsp,y,obj_wall))
         x += sign(hsp);
     }
     hsp = 0;
+    dir *= -1;
 }
 x += hsp;
 
