@@ -53,7 +53,7 @@
             <kind>1</kind>
             <string>draw_set_colour(c_white);
 draw_text(((room_width/2)- 25), room_height/2, "Victory!!!");
-draw_text(((room_width/2)- 100), ((room_height/2) + 50), "Press Space Bar to Go Back to the Opening Title");
+draw_text((120), ((room_height/2) + 50), "Press Space Bar to Go Back to the Opening Title");
 </string>
           </argument>
         </arguments>

@@ -52,8 +52,8 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_colour(c_white);
-draw_text(((room_width/2)- 50), room_height/2, "Save Quadrilateral World");
-draw_text(((room_width/2)- 50), ((room_height/2)+ 50), "Press Spacebar to Continue");
+draw_text((210), room_height/2, "Save Quadrilateral World");
+draw_text((198), ((room_height/2)+ 50), "Press Spacebar to Continue");
 </string>
           </argument>
         </arguments>

@@ -8,9 +8,9 @@
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
-  <colour>65408</colour>
+  <colour>65280</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>global.checkpoint = 2;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

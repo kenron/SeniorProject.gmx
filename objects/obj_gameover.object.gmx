@@ -25,9 +25,33 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check_pressed(vk_space)
+            <string>global.life = 3;
+if keyboard_check_pressed(vk_space)
 {
-    room_goto(rm_start);
+    if global.checkpoint = 1
+    {
+        room_goto(rm_1_1);
+    }
+    
+    if global.checkpoint = 2
+    {
+        room_goto(rm_2_1);
+    }
+    
+    if global.checkpoint = 3
+    {
+        room_goto(rm_3_1);
+    }
+    
+    if global.checkpoint = 4
+    {
+        room_goto(rm_4_1);
+    }
+    
+    if global.checkpoint = 5
+    {
+        room_goto(rm_5_1);
+    }
 }
 </string>
           </argument>
@@ -53,7 +77,7 @@
             <kind>1</kind>
             <string>draw_set_colour(c_white);
 draw_text(((room_width/2)- 50), room_height/2, "Game Over");
-draw_text(((room_width/2)- 100), ((room_height/2) + 50), "Press Space Bar to Go Back to the Opening Title");
+draw_text((100), ((room_height/2) + 50), "Press Space Bar to Go Back to the Start of the Level");
 </string>
           </argument>
         </arguments>
