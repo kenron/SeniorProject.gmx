@@ -133,7 +133,7 @@
     <instance objName="obj_AdvFast" x="512" y="448" name="inst_C99C310A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_AdvancedEnemy" x="160" y="256" name="inst_09BBC8EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_AdvancedEnemy" x="256" y="96" name="inst_C8E49823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_AdvFast" x="512" y="96" name="inst_39B7B14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_AdvFast" x="608" y="96" name="inst_39B7B14C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_NextRoom" x="576" y="64" name="inst_87E5EC65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lives" x="32" y="0" name="inst_DBF771B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pause" x="64" y="0" name="inst_1E979D7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
